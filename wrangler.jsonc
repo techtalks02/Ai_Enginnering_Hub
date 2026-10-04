@@ -1,8 +1,7 @@
 {
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
-  }
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-engineering-hub",
+  "pages_build_output_dir": ".next",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"]
 }
